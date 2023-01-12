@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../exercicio 004/terraria favicon.ico" type="image/x-icon">
+    <style>
+        h1{text-align: center;}
+        body{background-color: lightblue;}
+    </style>
+    <title>Midias</title>
+</head>
+<body><h1>imagens dinamica</h1>
+    <img src="imagens/foto-g.png" alt="">
+    <img src="imagens/foto-m.png" alt="">
+    <img src="imagens/foto-p.png" alt="">
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <hr>
+    <br>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos colocar um audio no site</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/musica-de-fundo-half.cool.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
