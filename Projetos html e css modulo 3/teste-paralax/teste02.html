@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste paralax 02</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #metade1{
+            background-image: url('imagens/background001.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: right, center;
+            height: 100vh;
+            
+        }
+        #metade2{
+            background-image: url('imagens/background002.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: right, center;
+            height: 100vh;
+        }
+        p{
+            margin: 20px 0px;
+            padding: 20px;
+        }
+        div{
+            margin: 0px;
+            padding: 0px;
+        }
+        .opaco{
+            margin: 0px;
+        }
+        .fundo{
+            background-color: white;
+            margin: 0px;
+        }
+        .invisivel{
+
+        }
+        .transparente{
+            background-color: rgba(0, 0, 0, 0.500);
+            max-width: 30%;
+            max-height: 80%;
+            margin-left: 5%;
+            font-size: large;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <article id="metade1">
+        <div class="fundo">
+            <p class="opaco">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sit, reprehenderit amet aperiam quisquam dignissimos doloribus ipsam quam assumenda magni accusantium eligendi quidem facilis et iste harum aliquid necessitatibus earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut non nostrum amet soluta quia ut accusantium dolorem, blanditiis vero quam repudiandae, voluptatum magnam beatae nam consequuntur? Vel debitis sapiente id.
+            </p>
+        </div>
+        <div class="invisivel">
+            <p class="transparente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione amet, fugit quod minima soluta consequuntur culpa fuga sapiente asperiores? At voluptatibus tenetur modi delectus laboriosam vitae officiis assumenda hic.</p>
+        </div>
+        <div class="fundo">
+            <p class="opaco">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus error voluptatibus similique dolorum, recusandae sequi suscipit officia? Aperiam neque id eveniet facere corporis officia numquam eligendi aliquam rerum natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, recusandae aut? Qui quae voluptatibus magnam praesentium at, voluptatum id a fugiat dolorum aut officiis cumque laboriosam temporibus quaerat eum facere?
+            </p>
+        </div>
+    </article>
+    <article id="metade2">
+        <div class="fundo">
+            <p class="opaco">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sit, reprehenderit amet aperiam quisquam dignissimos doloribus ipsam quam assumenda magni accusantium eligendi quidem facilis et iste harum aliquid necessitatibus earum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut non nostrum amet soluta quia ut accusantium dolorem, blanditiis vero quam repudiandae, voluptatum magnam beatae nam consequuntur? Vel debitis sapiente id.
+            </p>
+        </div>
+        <div class="invisivel">
+            <p class="transparente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione amet, fugit quod minima soluta consequuntur culpa fuga sapiente asperiores? At voluptatibus tenetur modi delectus laboriosam vitae officiis assumenda hic.</p>
+        </div>
+        <div class="fundo">
+            <p class="opaco">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus error voluptatibus similique dolorum, recusandae sequi suscipit officia? Aperiam neque id eveniet facere corporis officia numquam eligendi aliquam rerum natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, recusandae aut? Qui quae voluptatibus magnam praesentium at, voluptatum id a fugiat dolorum aut officiis cumque laboriosam temporibus quaerat eum facere?
+            </p>
+        </div>
+    </article>
+</body>
+</html>
