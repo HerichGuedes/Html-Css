@@ -9,5 +9,5 @@
 <br>
 <a href="https://herichguedes.github.io/Html-Css/Projetos%20html%20e%20css%20modulo%203/teste-paralax/index.html"> Teste paralax</a>
 <br>
-<a href=https://herichguedes.github.io/Html-Css/Projetos%20html%20e%20css%20modulo%203/d012/index.html> Projeto02-sem correção </a>
+<a href=https://herichguedes.github.io/Html-Css/Projetos%20html%20e%20css%20modulo%203/d012/index.html> Projeto02 sem correção </a>
 <br>
