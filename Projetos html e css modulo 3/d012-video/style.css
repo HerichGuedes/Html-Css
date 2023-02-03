@@ -81,6 +81,19 @@
  .fundo02 p{
     padding-left: 10px;
  }
+ aside{
+   background-color: darkgray;
+   margin-top: -30px;
+   position: relative;
+   padding-bottom: 56.45%;
+ }
+ aside iframe{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+ }
  footer{
     background-color: black;
     height: 5vh;
