@@ -13,3 +13,5 @@
 <br>
 <a href="https://herichguedes.github.io/Html-Css/Projetos%20html%20e%20css%20modulo%203/d012-video/index.html" target="_blank"> Projeto02 sem correção 2.0 </a>
 <br>
+<a href="https://herichguedes.github.io/Html-Css/Projetos%20html%20e%20css%20modulo%203/d012corrigido/index.html" target="_blank"> Projeto02 corrigido</a>
+<br>
