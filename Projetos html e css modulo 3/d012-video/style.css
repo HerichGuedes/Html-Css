@@ -43,7 +43,7 @@
  a:hover{
     text-decoration: underline;
  }
- p{
+ main p{
     font-family: var(--conteudo), cursive;
     font-size: 135%;
     padding: 30px;
