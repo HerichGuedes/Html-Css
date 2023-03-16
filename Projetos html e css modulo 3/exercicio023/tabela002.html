@@ -6,8 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../minhas-imagens/terraria favicon.ico" type="image/x-icon">
     <title>tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 10px;
+            width: 500px;
+        }
+        thead{
+            background-color: lightgrey;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th><th>Estado</th> <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1°</td> <td> São Paulo</td> <td>46 024 937</td>
+            </tr>
+            <tr>
+                <td>2°</td> <td> Minas Gerais</td> <td>20 732 660</td>
+            </tr>
+            <tr>
+                <td>3°</td> <td> Rio de Janeiro</td> <td>16 615 526</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th> <td></td> <td><strong>100 000 000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
