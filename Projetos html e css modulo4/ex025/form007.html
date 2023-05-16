@@ -8,9 +8,31 @@
     <title>FOra de input</title>
 </head>
 <body>
-    <form action="#" method="get" autocomplete="on">
+    <form action="#" method="post" autocomplete="on">
         <p>
-
+            <label for="iestado">Estado:</label>
+            <select name="estado" id="iestado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas gerais</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprofissão">Profissão:</label>
+            <input type="text" name="profissão" id="iprofissão" list="ilista">
+            <datalist id="ilista">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="1"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
         </p>
     </form>
 </body>
