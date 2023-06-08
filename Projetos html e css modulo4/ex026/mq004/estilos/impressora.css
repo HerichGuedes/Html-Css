@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    background: black url(../imagens/back-print.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.825);
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    color: black;
+    text-shadow:none;
+    font-size: 2em;
+}
+img{
+    display: block;
+    margin: auto;
+}
+img#cell{
+    display: none;
+}
+img#tablet{
+    display: none;
+}
+img#impressão{
+    display: block;
+}
+img#pc{
+    display: none;
+}
+img#tv{
+    display: none;
+}

@@ -11,7 +11,7 @@ html{
     height: 100vh;
 }
 body{
-    background: black url(../imagens/back-tablet.jpg);
+    background: black url(../imagens/back-tv.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
@@ -38,7 +38,7 @@ img#cell{
     display: none;
 }
 img#tablet{
-    display: block;
+    display: none;
 }
 img#impressão{
     display: none;
@@ -47,5 +47,5 @@ img#pc{
     display: none;
 }
 img#tv{
-    display: none;
+    display: block;
 }

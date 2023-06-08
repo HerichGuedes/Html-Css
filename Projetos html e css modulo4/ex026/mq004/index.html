@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/all.css" media="all">
-    <link rel="stylesheet" href="estilos/tablet.css" media="screen and(max-width: 800px)">
-    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+        <link rel="stylesheet" href="estilos/all.css" media="all and (max-width: 768px)">
+
+        <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:769px ) and (max-width: 992px)">
+
+        <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width: 993px) and (max-width: 1200px)">
+
+        <link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+        <link rel="stylesheet" href="estilos/tv.css" media="screen and (min-width: 1201px)">
+
     <title>Mobile first</title>
 </head>
 <body>
     <main>
-        <h1>Testando o Mobile First</h1>
+        <h1>Testando o Media queries</h1>
         <img id="cell" src="imagens/icon-phone.png" alt="icone celular">
         <img id="tablet" src="imagens/icon-tablet.png" alt="icone tablet">
         <img id="impressão" src="imagens/icon-print.png" alt="icone impressão">
