@@ -88,6 +88,7 @@ form a.botao:hover{
 }
 a.botao > span.material-symbols-outlined{
     font-size: 1.2em;
+    transform: translateY(30%)
     
 }
 form > div.campo{
@@ -98,7 +99,17 @@ form > div.campo{
     padding: 5px;
     margin: 5px 0px;
 }
+div.campo > input{
+    background-color: azure;
+    width: 85%;
+    height: 30px;
+    transform: translateY(-5%)
+}
+
 label{
     display: none;
+}
+div.campo span.material-symbols-outlined{
+    transform: translateY(15%)
 }
 

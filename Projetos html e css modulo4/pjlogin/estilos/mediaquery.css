@@ -23,6 +23,9 @@
     div#formulario > p{
         font-size: 1.2em;
     }
+    div.campo span.material-symbols-outlined{
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 993px){
