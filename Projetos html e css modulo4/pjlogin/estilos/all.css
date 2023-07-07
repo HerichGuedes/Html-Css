@@ -104,9 +104,8 @@ div.campo > input{
     background-color: azure;
     width: 85%;
     height: 30px;
-    transform: translateY(-5%);
     border-radius: 5px;
-    
+    transform: translateY(-5%);
 }
 
 label{
