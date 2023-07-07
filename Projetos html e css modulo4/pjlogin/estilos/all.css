@@ -81,6 +81,8 @@ form a.botao{
     cursor: pointer;
     margin-top: 10px;
     border-radius: 5px;
+    color: black;
+    text-decoration: none;
 }
 form a.botao:hover{
     background-color:rgb(51, 115, 210); ;
@@ -88,8 +90,7 @@ form a.botao:hover{
 }
 a.botao > span.material-symbols-outlined{
     font-size: 1.2em;
-    transform: translateY(30%)
-    
+    transform: translate(15%, 22%); 
 }
 form > div.campo{
     background-color: #2c2f82;
@@ -103,7 +104,9 @@ div.campo > input{
     background-color: azure;
     width: 85%;
     height: 30px;
-    transform: translateY(-5%)
+    transform: translateY(-5%);
+    border-radius: 5px;
+    
 }
 
 label{
